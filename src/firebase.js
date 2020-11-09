@@ -3,14 +3,15 @@ import 'firebase/auth'
 import 'firebase/firestore'
 import 'firebase/storage'
 
+// you need to enter your own configuration values
 const firebaseConfig = {
-    apiKey: "AIzaSyBpEWiJIRXFtvSgzTWEojHpOoDnu84xyCI",
-    authDomain: "social-media-app0.firebaseapp.com",
-    databaseURL: "https://social-media-app0.firebaseio.com",
-    projectId: "social-media-app0",
-    storageBucket: "social-media-app0.appspot.com",
-    messagingSenderId: "668830960453",
-    appId: "1:668830960453:web:cbfe5827f4f9819af20c2c"
+    apiKey: "**********************",
+    authDomain: "***************",
+    databaseURL: "****************",
+    projectId: "*****************",
+    storageBucket: "*****************",
+    messagingSenderId: "*********************************",
+    appId: "****************************************"
 };
 
 firebase.initializeApp(firebaseConfig);
